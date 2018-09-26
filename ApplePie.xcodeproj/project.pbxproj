@@ -14,6 +14,7 @@
 		742175132156EE28005621D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742175112156EE28005621D0 /* LaunchScreen.storyboard */; };
 		7421751E2156EE28005621D0 /* ApplePieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7421751D2156EE28005621D0 /* ApplePieTests.swift */; };
 		742175292156EE28005621D0 /* ApplePieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742175282156EE28005621D0 /* ApplePieUITests.swift */; };
+		745889FB2158784E0000B7B1 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745889FA2158784E0000B7B1 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		742175242156EE28005621D0 /* ApplePieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplePieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		742175282156EE28005621D0 /* ApplePieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePieUITests.swift; sourceTree = "<group>"; };
 		7421752A2156EE28005621D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		745889FA2158784E0000B7B1 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				742175082156EE27005621D0 /* AppDelegate.swift */,
+				745889FA2158784E0000B7B1 /* Game.swift */,
 				7421750A2156EE27005621D0 /* ViewController.swift */,
 				7421750C2156EE27005621D0 /* Main.storyboard */,
 				7421750F2156EE28005621D0 /* Assets.xcassets */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7421750B2156EE27005621D0 /* ViewController.swift in Sources */,
+				745889FB2158784E0000B7B1 /* Game.swift in Sources */,
 				742175092156EE27005621D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,7 +445,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = GabrielPalmer.ApplePie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -458,7 +462,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = GabrielPalmer.ApplePie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
