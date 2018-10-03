@@ -10,8 +10,6 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    
-    
     @IBOutlet weak var logTableView: UITableView!
     @IBOutlet weak var treeImageView: UIImageView!
     @IBOutlet weak var correctWordLabel: UILabel!
@@ -101,6 +99,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func newRound() {
         
         logTableView.reloadData()
+        //scroll to bottom each time here
         
         if !listOfWords.isEmpty {
             
